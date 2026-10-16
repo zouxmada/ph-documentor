@@ -24,3 +24,9 @@ DocFakeAnimal >> describe [
 	"Return a description of the animal."
 	^ 'An animal'
 ]
+
+{ #category : 'accessing' }
+DocFakeAnimal >> name [
+	"Returns the name of the animal."
+	^ name
+]
