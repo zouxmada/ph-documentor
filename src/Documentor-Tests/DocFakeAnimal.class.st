@@ -1,3 +1,8 @@
+"
+I represent an animal.
+
+I have a name and an age. This second paragraph should not appear in the report.
+"
 Class {
 	#name : 'DocFakeAnimal',
 	#superclass : 'Object',
@@ -8,3 +13,14 @@ Class {
 	#category : 'Documentor-Tests',
 	#package : 'Documentor-Tests'
 }
+
+{ #category : 'accessing' }
+DocFakeAnimal >> age [
+	^ age
+]
+
+{ #category : 'printing' }
+DocFakeAnimal >> describe [
+	"Return a description of the animal."
+	^ 'An animal'
+]
